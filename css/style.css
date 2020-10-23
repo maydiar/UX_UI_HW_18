@@ -441,7 +441,7 @@ button:focus {
 }
 
 .otraBtn:hover {
-    background-color: #E0611A;
+    background-color: #D55C19;
     cursor: pointer; 
     transition-duration: 0.7s;
 }
@@ -512,7 +512,7 @@ button:focus {
 }
 
 .bbeBtn:hover {
-    background-color: #194C60;
+    background-color: #154253;
     cursor: pointer; 
     transition-duration: 0.7s;
 }
