@@ -584,7 +584,7 @@ footer {
 @media only screen and (max-width: 600px) {
     
     .inline-block {
-        padding-left: 107px;
+        padding-left: 113px;
     }
     
     .inline-block a {
@@ -598,7 +598,7 @@ footer {
     
     .logo img {
 
-        margin-left: 140px;
+        margin-left: 137px;
     }
     
     /* Hero */
@@ -858,7 +858,7 @@ footer {
 /* Header */
 
     .inline-block {
-        padding-left: 235px;
+        padding-left: 375px;
     }
 
     .inline-block a {
@@ -870,7 +870,7 @@ footer {
     
     .logo img {
         max-width: 30%; 
-        margin-left: 265px;
+        margin-left: 375px;
     }
 
 /* About */
@@ -1061,46 +1061,39 @@ footer {
     }
 
 /* Footer */
-
-    footer {
-        background-color: #4E313F;
-        height: 350px;
-        background-size: cover;
-        width: 100%;
-        position: static;
-    }
     
     .footerLogo {
-        padding-left: 30px;
+        padding-left: 0px;
         padding-top: 25px;
-        padding-right: 0;
         float: left;
     }
     
     .footerLogo img {
         height: 150px;
+        padding-left: 40px;
     }
     
     .connect {
-        padding-top: 25px;
-        padding-left: 100px;
+        padding-top: 45px;
+        padding-left: 130px;
+        padding-right: 150px;
+        margin-right: -120px;
     }
     
       .contact img {
-        padding-top: 55px;
-        margin-left:px;
+        padding-top: 70px;
     }
     
       .copyright  {
-        padding-left: 70px;
-        padding-top: 15px;
+        padding-left: 350px;
+        padding-top: 150px;
     }
 }
 
 @media only screen and (max-width: 600px) {
     
     .inline-block {
-        padding-left: 107px;
+        padding-left: 113px;
     }
     
     .inline-block a {
@@ -1114,7 +1107,7 @@ footer {
     
     .logo img {
 
-        margin-left: 140px;
+        margin-left: 137px;
     }
     
     /* Hero */
