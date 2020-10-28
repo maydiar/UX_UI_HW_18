@@ -579,284 +579,21 @@ footer {
     text-align: right;
 }
 
+
+
 /* Media Queries */
 
-@media only screen and (max-width: 600px) {
-    
-    .inline-block {
-        padding-left: 113px;
-    }
-    
-    .inline-block a {
-        font-size: 13px;
-        padding-bottom: 10px;
-    }
-    
-    .logo {
-        padding: 30px 60px;
-    }
-    
-    .logo img {
-
-        margin-left: 137px;
-    }
-    
-    /* Hero */
-    
-    .heroBg {
-        background-size: 90%;
-    } 
-
-    .about {
-        padding-bottom: 25px;
-    }
-    
-    .profilePic {
-        height: 400px;
-        margin-top: -50px;
-        margin-left: 45px;
-      }
-    
-    .about h1 {
-        padding-left: 40px;
-      }
-      
-    .about p {
-        padding-right: 5px;
-      }
-    
-    .spacer {
-          display: inline-block;
-          height: 75px;
-      }
-
-    /* Skills */
-    
-     .mySkills h3 {
-         font-size: 13px;
-     }
-    
-     .mySkills p {
-         font-size: 12px;
-     }
-    
-     .flexContainer {
-         display: flex; 
-     } 
-
-     .design {
-        width: 33%;
-        margin-left: 30px;
-        }
-    
-     .ux {
-        width: 33%;
-        margin-left: 10px;
-    }
-    
-    .personal {
-        width: 33%;
-        margin-left: 0px;
-    }
-     
-/* Work */
-    
-    .workHead {
-        margin-top: -90px;
-      }
-    
-    .workGrid {
-        margin: 5px;
-        display: grid;
-        grid-template-rows: 200px;
-        grid-template-columns: 100%;
-        grid-template-areas:
-        "preview"
-        "description"
-        ;
-    }
-    
-    .workGrid1 {
-        grid-template-areas:
-        "description"
-        "preview"
-        ;
-    }
-    
-    .bbPreview  {
-        text-align: center;
-        grid-area: 'preview';
-        margin-top: -83px;
-    }
-    
-    .bbPreview img {
-        width: 50%;
-    }
-    
-    .bbText {
-        margin-top: 120px;
-        grid-area: 'description';
-    }
-    
-    .bbText h2 {
-        font-size: 20px;
-        padding-left: 30px;
-        padding-bottom: 5px;
-        grid-area: 'description';
-    }
-    
-    .bbText h4 {
-        font-size: 14.5px;
-        padding-left: 30px;
-        grid-area: 'description';
-    }
-    
-    .bbText p {
-        font-size: 13px;
-        padding-bottom: 20px;
-        padding-left: 30px;
-        grid-area: 'description';
-    }
-    
-    .bbBtn {
-        margin-left: 30px;
-        margin-bottom: 25px;
-        grid-area: 'description';
-    }
-    
-    .otra {
-        margin-top: 100px;
-        padding-bottom: 195px;
-        background-color: rgba(246, 106, 29, 0.1)
-    }
-    
-    .otraPreview  {
-        text-align: center;
-        grid-area: 'preview';
-        margin-top: -283px;
-    }
-    
-    .otraPreview img {
-        text-align: center;
-        grid-area: 'preview';
-        width: 50%;
-    }
-    
-    .otraText {
-        margin-top: 390px;
-        margin-left: 170px;
-        grid-area: 'description';
-    }
-    
-    .otraText h2 {
-        font-size: 20px;
-        padding-left: 30px;
-        padding-bottom: 5px;
-        grid-area: 'description';
-    }
-    
-    .otraText h4 {
-        font-size: 13.5px;
-        padding-left: 30px;
-        grid-area: 'description';
-    }
-    
-    .otraText p {
-        font-size: 13px;
-        padding-bottom: 20px;
-        padding-left: 30px;
-        grid-area: 'description';
-    }
-    
-    .otraBtn {
-        margin-left: -140px;
-        margin-bottom: 25px;
-        grid-area: 'description';
-    }
-    
-    .bbePreview  {
-        text-align: center;
-        grid-area: 'preview';
-        margin-top: -83px;
-    }
-    
-    .bbePreview img {
-        width: 100%;
-    }
-    
-    .bbeText {
-        margin-top: 20px;
-        grid-area: 'description';
-    }
-    
-    .bbeText h2 {
-        font-size: 20px;
-        margin-left: -120px;
-        padding-bottom: 5px;
-        grid-area: 'description';
-    }
-    
-    .bbeText h4 {
-        font-size: 14.5px;
-        margin-left: -120px;
-        padding-left: 30px;
-        grid-area: 'description';
-    }
-    
-    .bbeText p {
-        font-size: 13px;
-        margin-left: -120px;
-        padding-bottom: 20px;
-        padding-left: 30px;
-        grid-area: 'description';
-    }
-    
-    .bbeBtn {
-        margin-left: -90px;
-        margin-bottom: 25px;
-        grid-area: 'description';
-    }
-    
-/* Footer */
-    
-    footer {
-        background-color: #4E313F;
-        height: 350px;
-        background-size: cover;
-        width: 100%;
-        position: static;
-    }
-    
-    .footerLogo {
-        padding-left: 30px;
-        padding-top: 25px;
-        padding-right: 0;
-        float: left;
-    }
-    
-    .footerLogo img {
-        height: 150px;
-    }
-    
-    .connect {
-        padding-top: 25px;
-        padding-left: 95px;
-    }
-    
-      .contact img {
-        padding-top: 55px;
-    }
-    
-      .copyright  {
-        padding-left: 70px;
-        padding-top: 15px;
-    }
-}
+/* 1024*/
 
 @media only screen and (max-width: 1024px) {
 
 /* Header */
 
+    body {
+        margin-right: 0px;
+        padding: 0px; 
+        height: auto;  
+    }
 
     .inline-block {
         padding-left: 375px;
@@ -865,8 +602,10 @@ footer {
     .inline-block a {
         padding-bottom: 10px;
     }
+
     .logo {
         padding: 30px 60px;
+        padding-bottom: 10px;
     }
     
     .logo img {
@@ -885,23 +624,22 @@ footer {
       .about h1 {
 
         padding-top: 35px;
-        padding-left: 110px;
+        padding-left: 175px;
       }
     
     .about p {
-        margin-left: 110px;
+        margin-left: 175px;
       }
     
       .email {
         margin-right: 35px;
-        margin-left: 110px;
+        margin-left: 175px;
       }
 
 /*Skills */
    
     .mySkills h1 {
         margin-top: -50px;
-        margin-right: -15px;
         text-align: center;
     }
 
@@ -919,24 +657,11 @@ footer {
        width: 33%;
        margin-left: 0px;
    }
-   
-   .apps {
-       text-align: center;
-       background-color: rgba(102,98,1, 0.05);
-       padding-bottom: 50px;
-       margin-top: 100px;
-    }  
 
 /* Work */ 
 
     .workHead {
-        font-family: 'arkhipregular', sans-serif;
-        font-weight: lighter;
-        font-size: 32px;  
-        color: #4E313F;
-        text-align: center;
-        letter-spacing: -1px;
-        margin-top: -70px;
+        margin-top: -50px;
         margin-left: 45px;
     } 
 
@@ -1034,7 +759,7 @@ footer {
     .bbePreview  {
         text-align: center;
         grid-area: 'preview';
-        margin-top: -83px;
+        margin-top: -50px;
     }
 
     .bbePreview img {
@@ -1042,7 +767,7 @@ footer {
     }
 
     .bbeText {
-        margin-top: 70px;
+        margin-top: 40px;
     }
 
     .bbeText h2 {
@@ -1070,8 +795,8 @@ footer {
 /* Footer */
     
     .footerLogo {
-        padding-left: 0px;
-        padding-top: 25px;
+        padding-left: 20px;
+        padding-top: 50px;
         float: left;
     }
     
@@ -1081,26 +806,31 @@ footer {
     }
     
     .connect {
-        padding-top: 45px;
-        padding-left: 150px;
+        padding-top: 80px;
+        padding-left: 130px;
         padding-right: 150px;
         margin-right: -120px;
     }
     
       .contact img {
-        padding-top: 70px;
+        padding-top: 120px;
     }
     
       .copyright  {
         padding-left: 340px;
-        padding-top: 175px;
+        padding-top: 75px;
     }
 }
 
-@media only screen and (max-width: 600px) {
+
+
+/* 768 */
+
+@media only screen and (max-width: 768px) {
+    
     
     .inline-block {
-        padding-left: 113px;
+        padding-left: 243px;
     }
     
     .inline-block a {
@@ -1110,17 +840,16 @@ footer {
     
     .logo {
         padding: 30px 60px;
+        padding-bottom: 10px;
     }
     
     .logo img {
-
-        margin-left: 137px;
+        margin-left: 240px;
     }
     
-    /* Hero */
-    
     .heroBg {
-        background-size: 90%;
+        background-size: 75%;
+        background-position-x: 105px;
     } 
 
     .about {
@@ -1128,25 +857,34 @@ footer {
     }
     
     .profilePic {
-        height: 400px;
+        height: 510px;
+        float: none;
         margin-top: -50px;
-        margin-left: 45px;
+        margin-left: 123px;
       }
+
+/* About */      
     
     .about h1 {
         padding-left: 40px;
       }
       
     .about p {
-        padding-right: 5px;
+        padding-right: 15px;
+        margin-left: 40px;
       }
     
+    .email {
+        margin-right: 35px;
+        margin-left: 40px;
+    }
+
     .spacer {
           display: inline-block;
           height: 75px;
       }
 
-    /* Skills */
+/* Skills */
     
      .mySkills h3 {
          font-size: 13px;
@@ -1162,7 +900,7 @@ footer {
 
      .design {
         width: 33%;
-        margin-left: 30px;
+        margin-left: 75px;
         }
     
      .ux {
@@ -1174,11 +912,18 @@ footer {
         width: 33%;
         margin-left: 0px;
     }
-     
+
+     .apps img {
+        text-align: center;
+        margin-top: -25px;
+        height: 65px;
+    }
+   
 /* Work */
     
     .workHead {
-        margin-top: -90px;
+        margin-top: -50px;
+        margin-left: 0px;
       }
     
     .workGrid {
@@ -1206,36 +951,36 @@ footer {
     }
     
     .bbPreview img {
-        width: 50%;
+        width: 35%;
     }
     
     .bbText {
-        margin-top: 120px;
+        margin-top: 150px;
         grid-area: 'description';
     }
     
     .bbText h2 {
         font-size: 20px;
-        padding-left: 30px;
+        padding-left: 100px;
         padding-bottom: 5px;
         grid-area: 'description';
     }
     
     .bbText h4 {
         font-size: 14.5px;
-        padding-left: 30px;
+        padding-left: 100px;
         grid-area: 'description';
     }
     
     .bbText p {
         font-size: 13px;
         padding-bottom: 20px;
-        padding-left: 30px;
+        padding-left: 100px;
         grid-area: 'description';
     }
     
     .bbBtn {
-        margin-left: 30px;
+        margin-left: 100px;
         margin-bottom: 25px;
         grid-area: 'description';
     }
@@ -1255,38 +1000,38 @@ footer {
     .otraPreview img {
         text-align: center;
         grid-area: 'preview';
-        width: 50%;
+        width: 35%;
     }
     
     .otraText {
-        margin-top: 390px;
+        margin-top: 420px;
         margin-left: 170px;
         grid-area: 'description';
     }
     
     .otraText h2 {
         font-size: 20px;
-        padding-left: 30px;
+        padding-left: 100px;
         padding-bottom: 5px;
         grid-area: 'description';
     }
     
     .otraText h4 {
-        font-size: 13.5px;
-        padding-left: 30px;
+        font-size: 14.5px;
+        padding-left: 100px;
         grid-area: 'description';
     }
     
     .otraText p {
         font-size: 13px;
         padding-bottom: 20px;
-        padding-left: 30px;
+        padding-left: 100px;
         grid-area: 'description';
     }
     
     .otraBtn {
-        margin-left: -140px;
-        margin-bottom: 25px;
+        margin-left: -65px;
+        margin-bottom: 20px;
         grid-area: 'description';
     }
     
@@ -1297,38 +1042,38 @@ footer {
     }
     
     .bbePreview img {
-        width: 100%;
+        width: 75%;
     }
     
     .bbeText {
-        margin-top: 20px;
+        margin-top: 70px;
         grid-area: 'description';
     }
     
     .bbeText h2 {
         font-size: 20px;
-        margin-left: -120px;
+        margin-left: -10px;
         padding-bottom: 5px;
         grid-area: 'description';
     }
     
     .bbeText h4 {
         font-size: 14.5px;
-        margin-left: -120px;
+        margin-left: -40px;
         padding-left: 30px;
         grid-area: 'description';
     }
     
     .bbeText p {
         font-size: 13px;
-        margin-left: -120px;
+        margin-left: -40px;
         padding-bottom: 20px;
         padding-left: 30px;
         grid-area: 'description';
     }
     
     .bbeBtn {
-        margin-left: -90px;
+        margin-left: -10px;
         margin-bottom: 25px;
         grid-area: 'description';
     }
@@ -1344,27 +1089,323 @@ footer {
     }
     
     .footerLogo {
-        padding-left: 30px;
-        padding-top: 25px;
+        padding-left: 190px;
+        padding-top: 35px;
         padding-right: 0;
-        float: left;
+        float: none;
     }
     
     .footerLogo img {
-        height: 150px;
+        height: 100px;
     }
     
     .connect {
-        padding-top: 25px;
-        padding-left: 95px;
+        padding-top: 10px;
+        margin-left: 165px;
+        padding-left: 50px;
     }
-    
+
       .contact img {
-        padding-top: 55px;
+        padding-top: 35px;
     }
     
     .copyright  {
-        padding-left: 70px;
-        padding-top: 15px;
+        padding-left: 200px;
+        padding-top: 35px;
+    }
+}
+
+
+
+/* 600 */
+
+@media only screen and (max-width: 600px) {
+    
+    .inline-block {
+        padding-left: 155px;
+    }
+    
+    .inline-block a {
+        font-size: 13px;
+        padding-bottom: 10px;
+    }
+    
+    .logo {
+        padding: 30px 60px;
+        padding-bottom: 10px;
+    }
+    
+    .logo img {
+        margin-left: 170px;
+    }
+    
+    .heroBg {
+        background-size: 75%;
+        background-position-x: 80px;
+    } 
+
+/* About */    
+
+    .about {
+        padding-bottom: 25px;
+    }
+    
+    .profilePic {
+        height: 450px;
+        float: none;
+        margin-top: -50px;
+        margin-left: 65px;
+      }
+    
+    .about h1 {
+        padding-left: 40px;
+      }
+      
+    .about p {
+        font-size: 11px;
+        padding-right: 15px;
+        margin-left: 40px;
+      }
+    
+    .email {
+        margin-right: 35px;
+        margin-left: 40px;
+    }
+
+    .spacer {
+          display: inline-block;
+          height: 75px;
+      }
+
+    /* Skills */
+    
+     .mySkills h3 {
+         font-size: 13px;
+
+     }
+    
+     .mySkills p {
+         font-size: 12px;
+     }
+    
+     .flexContainer {
+         display: flex; 
+         margin-bottom: -50px;
+     } 
+
+     .design {
+        width: 33%;
+        margin-left: 45px;
+        }
+    
+     .ux {
+        width: 33%;
+        margin-left: 10px;
+    }
+    
+    .personal {
+        width: 33%;
+        margin-left: 0px;
+    }
+
+     .apps img {
+        text-align: center;
+        margin-top: -25px;
+        height: 55px;
+    }
+   
+/* Work */
+    
+    .workHead {
+        margin-top: -70px;
+        margin-left: 0px;
+      }
+    
+    .workGrid {
+        margin: 5px;
+        display: grid;
+        grid-template-rows: 200px;
+        grid-template-columns: 100%;
+        grid-template-areas:
+        "preview"
+        "description"
+        ;
+    }
+    
+    .workGrid1 {
+        grid-template-areas:
+        "description"
+        "preview"
+        ;
+    }
+    
+    .bbPreview  {
+        text-align: center;
+        grid-area: 'preview';
+        margin-top: -70px;
+    }
+    
+    .bbPreview img {
+        width: 35%;
+    }
+    
+    .bbText {
+        margin-top: 60px;
+        grid-area: 'description';
+    }
+    
+    .bbText h2 {
+        font-size: 20px;
+        padding-left: 75px;
+        padding-bottom: 5px;
+        grid-area: 'description';
+    }
+    
+    .bbText h4 {
+        font-size: 14.5px;
+        padding-left: 75px;
+        grid-area: 'description';
+    }
+    
+    .bbText p {
+        font-size: 13px;
+        padding-bottom: 20px;
+        padding-left: 75px;
+        grid-area: 'description';
+    }
+    
+    .bbBtn {
+        margin-left: 75px;
+        margin-bottom: 25px;
+        grid-area: 'description';
+    }
+    
+    .otra {
+        margin-top: 100px;
+        padding-bottom: 195px;
+        background-color: rgba(246, 106, 29, 0.1)
+    }
+    
+    .otraPreview  {
+        text-align: center;
+        grid-area: 'preview';
+        margin-top: -270px;
+    }
+    
+    .otraPreview img {
+        text-align: center;
+        grid-area: 'preview';
+        width: 35%;
+    }
+    
+    .otraText {
+        margin-top: 330px;
+        margin-left: 150px;
+        grid-area: 'description';
+    }
+    
+    .otraText h2 {
+        font-size: 20px;
+        padding-left: 100px;
+        padding-bottom: 5px;
+        grid-area: 'description';
+    }
+    
+    .otraText h4 {
+        font-size: 14.5px;
+        padding-left: 100px;
+        grid-area: 'description';
+    }
+    
+    .otraText p {
+        font-size: 13px;
+        padding-bottom: 20px;
+        padding-left: 100px;
+        grid-area: 'description';
+    }
+    
+    .otraBtn {
+        margin-left: -65px;
+        margin-bottom: 20px;
+        grid-area: 'description';
+    }
+    
+    .bbePreview  {
+        text-align: center;
+        grid-area: 'preview';
+        margin-top: -50px;
+    }
+    
+    .bbePreview img {
+        width: 75%;
+    }
+    
+    .bbeText {
+        margin-top: 25px;
+        grid-area: 'description';
+    }
+    
+    .bbeText h2 {
+        font-size: 20px;
+        margin-left: -40px;
+        padding-bottom: 5px;
+        grid-area: 'description';
+    }
+    
+    .bbeText h4 {
+        font-size: 14.5px;
+        margin-left: -69px;
+        padding-left: 30px;
+        grid-area: 'description';
+    }
+    
+    .bbeText p {
+        font-size: 13px;
+        margin-left: -69px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        grid-area: 'description';
+    }
+    
+    .bbeBtn {
+        margin-left: -39px;
+        margin-bottom: 25px;
+        grid-area: 'description';
+    }
+    
+/* Footer */
+    
+    footer {
+        background-color: #4E313F;
+        height: 350px;
+        background-size: cover;
+        width: 100%;
+        position: static;
+    }
+    
+    .footerLogo {
+        padding-left: 115px;
+        padding-top: 35px;
+        padding-right: 0;
+        float: none;
+    }
+    
+    .footerLogo img {
+        height: 100px;
+    }
+    
+    .connect {
+        padding-top: 10px;
+        margin-left: 90px;
+        padding-left: 50px;
+    }
+
+      .contact img {
+        padding-top: 35px;
+    }
+    
+    .copyright  {
+        padding-left: 120px;
+        padding-top: 35px;
     }
 }
