@@ -1661,7 +1661,7 @@ footer {
 }
 
 .otraText p {
-    font-size: 7px;
+    font-size: 11px;
     padding-bottom: 20px;
     padding-left: 35px;
     line-height: 17px;
@@ -1704,9 +1704,10 @@ footer {
 }
 
 .bbeText p {
-    font-size: 9px;
+    font-size: 11px;
     padding-bottom: 20px;
     padding-left: 30px;
+    margin-left: -130px;
     line-height: 17px;
     grid-area: 'description';
 }
