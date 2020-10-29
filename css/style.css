@@ -1575,7 +1575,23 @@ footer {
         width: 55%;
     }
     
+    .bbText {
+        margin-top: 85px;
+        grid-area: 'description';
+    }
     
+    .bbText h2 {
+        font-size: 18px;
+        padding-left: 15px;
+        padding-bottom: 5px;
+        grid-area: 'description';
+    }
+    
+    .bbText h4 {
+        font-size: 14px;
+        padding-left: 15px;
+        grid-area: 'description';
+    }
     
     .bbText p {
         font-size: 11px;
@@ -1615,14 +1631,14 @@ footer {
     }
     
     .otraText h4 {
-        font-size: 14px;
+        font-size: 12px;
         padding-left: 100px;
         margin-bottom: -7px;
         grid-area: 'description';
     }
     
     .otraText p {
-        font-size: 10.25px;
+        font-size: 18.25px;
         padding-bottom: 20px;
         padding-left: 100px;
         line-height: 17px;
@@ -1658,7 +1674,7 @@ footer {
     }
     
     .bbeText h4 {
-        font-size: 14px;
+        font-size: 12px;
         margin-left: -135px;
         padding-left: 30px;
         margin-bottom: -8px;
@@ -1666,7 +1682,7 @@ footer {
     }
     
     .bbeText p {
-        font-size: 10.25px;
+        font-size: 8.25px;
         margin-left: -135px;
         padding-bottom: 20px;
         padding-left: 30px;
