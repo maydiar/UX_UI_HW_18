@@ -1660,10 +1660,10 @@ footer {
 }
 
 .otraText p {
-    font-size: 7px;
+    font-size: 6.5px;
     padding-bottom: 20px;
     padding-left: 35px;
-    line-height: 17px;
+    line-height: 14px;
     grid-area: 'description';
 }
 
