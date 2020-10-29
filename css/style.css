@@ -1663,7 +1663,7 @@ footer {
     font-size: 6.5px;
     padding-bottom: 20px;
     padding-left: 35px;
-    line-height: 2px;
+    line-height: 7px;
     grid-area: 'description';
 }
 
