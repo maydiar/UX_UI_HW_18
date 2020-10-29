@@ -1661,7 +1661,7 @@ footer {
 }
 
 .otraText p {
-    font-size: 7px;
+    font-size: 6px;
     padding-bottom: 20px;
     padding-left: 35px;
     line-height: 17px;
@@ -1691,22 +1691,23 @@ footer {
 
 .bbeText h2 {
     font-size: 18px;
-    text-align: left;
-    padding-right: 200px;
+    margin-left: -100px;
     padding-bottom: 5px;
-    grid-area: 'preview';
+    grid-area: 'description';
 }
 
 .bbeText h4 {
     font-size: 14px;
-    padding-left: 20px;
+    margin-left: -130px;
+    padding-left: 30px;
     grid-area: 'description';
 }
 
 .bbeText p {
-    font-size: 11px;
+    font-size: 15px;
+    margin-left: -130px;
     padding-bottom: 20px;
-    padding-left: 20px;
+    padding-left: 30px;
     line-height: 17px;
     grid-area: 'description';
 }
