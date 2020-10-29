@@ -1612,7 +1612,50 @@ footer {
         grid-area: 'description';
     }
     
+    .otra {
+        padding-bottom: 160px;
+    }
+
+    .otraPreview img {
+        text-align: center;
+        grid-area: 'preview';
+        width: 55%;
+    }
     
+    .otraText {
+        margin-top: 355px;
+        margin-left: 80px;
+        grid-area: 'description';
+    }
+    
+    .otraText h2 {
+        font-size: 18px;
+        padding-left: 100px;
+        padding-bottom: 3px;
+        grid-area: 'description';
+    }
+    
+    .otraText h4 {
+        font-size: 14px;
+        padding-left: 100px;
+        margin-bottom: -7px;
+        grid-area: 'description';
+    }
+    
+    .otraText p {
+        font-size: 10.25px;
+        padding-bottom: 20px;
+        padding-left: 100px;
+        line-height: 17px;
+        grid-area: 'description';
+    }
+    
+    .otraBtn {
+        margin-left: -65px;
+        margin-bottom: 20px;
+        grid-area: 'description';
+    }
+
     
 /* Footer */
     
