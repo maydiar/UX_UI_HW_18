@@ -1575,23 +1575,7 @@ footer {
         width: 55%;
     }
     
-    .bbText {
-        margin-top: 85px;
-        grid-area: 'description';
-    }
     
-    .bbText h2 {
-        font-size: 18px;
-        padding-left: 15px;
-        padding-bottom: 5px;
-        grid-area: 'description';
-    }
-    
-    .bbText h4 {
-        font-size: 14px;
-        padding-left: 15px;
-        grid-area: 'description';
-    }
     
     .bbText p {
         font-size: 11px;
