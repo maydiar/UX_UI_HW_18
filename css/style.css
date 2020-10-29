@@ -55,6 +55,7 @@ header {
     box-shadow: 10px 1px 6px rgba(0, 0, 0, 0.1);
     width: 100%;
     position: fixed;
+    z-index: 1;
     margin: 0;
 }
 
@@ -186,25 +187,39 @@ a:focus {
 
   .email img {
       height: 25px;
+      opacity: 0.7;
   }
+
+  .email img:hover {
+    opacity: 1;
+ }
 
   .linked {
     margin-right: 43px;
-
   }
 
   .linked img {
       height: 25px;
+      opacity: 0.7;
   }
+
+  .linked img:hover {
+    opacity: 1;
+ }
 
   .resume {
     margin-right: 60px;
-
   }
 
   .resume img {
       height: 25px;
+      opacity: 0.7;
+      position: absolute;
   }
+
+  .resume img:hover {
+    opacity: 1;
+ }
 
   .spacer {
       display: inline-block;
@@ -570,6 +585,8 @@ footer {
     padding-right: 25px;
 }
 
+
+
   .copyright  {
     color: #DDDDDD;
     font-family: 'axiformabook';
@@ -579,8 +596,29 @@ footer {
     text-align: right;
 }
 
+.footerEmail img {
+    opacity: 0.7;
+}
 
+.footerEmail img:hover {
+    opacity: 1;
+}
 
+ .footerLinked img {
+    opacity: 0.7;
+}
+
+.footerLinked img:hover {
+    opacity: 1;
+}
+
+ .footerResume img {
+    opacity: 0.7;
+}
+
+.footerResume img:hover {
+    opacity: 1;
+}
 /* Media Queries */
 
 /* 1024*/
@@ -1200,13 +1238,18 @@ footer {
     
      .ux {
         width: 33%;
-        margin-left: 10px;
+        margin-left: 20px;
     }
     
     .personal {
         width: 33%;
         margin-left: 0px;
     }
+
+    .apps {
+        padding-bottom: 50px;
+        margin-top: 100px;
+        } 
 
      .apps img {
         text-align: center;
@@ -1217,7 +1260,7 @@ footer {
 /* Work */
     
     .workHead {
-        margin-top: -70px;
+        margin-top: -50px;
         margin-left: 0px;
       }
     
@@ -1384,7 +1427,7 @@ footer {
     }
     
     .footerLogo {
-        padding-left: 115px;
+        padding-left: 107px;
         padding-top: 35px;
         padding-right: 0;
         float: none;
@@ -1396,7 +1439,7 @@ footer {
     
     .connect {
         padding-top: 10px;
-        margin-left: 90px;
+        margin-left: 85px;
         padding-left: 50px;
     }
 
@@ -1409,3 +1452,305 @@ footer {
         padding-top: 35px;
     }
 }
+
+
+/* 375 */
+
+@media only screen and (max-width: 375px) {
+    
+    .inline-block {
+        padding-left: 97px;
+    }
+    
+    .inline-block a {
+        font-size: 13px;
+        padding-bottom: 10px;
+    }
+
+    .inline-block ul {
+        margin-left: -25px;
+    }
+    
+    .logo {
+        padding: 30px 60px;
+        padding-bottom: 10px;
+    }
+    
+    .logo img {
+        margin-left: 85px;
+    }
+    
+    .heroBg {
+        background-size: 87%;
+        background-position-x: 25.5px;
+        background-position-y: 250px;
+    }     
+
+/* About */    
+
+    .about {
+        padding-bottom: 25px;
+        margin-top: -220px;
+    }
+    
+    .profilePic {
+        height: 310px;
+        float: none;
+        margin-top: -50px;
+        margin-left: 26.5px;
+
+      }
+    
+    .about h1 {
+        padding-left: 25px;
+        font-size: 30px;
+        padding-top: 15px;
+      }
+      
+    .about p {
+        font-size: 11px;
+        padding-right: 15px;
+        margin-left: 25px;
+      }
+    
+    .email {
+        margin-right: 35px;
+        margin-left: 25px;
+    }
+
+    .spacer {
+          display: inline-block;
+          height: 75px;
+      }
+
+    /* Skills */
+    
+     .mySkills h3 {
+        font-size: 11px;
+        margin-top: -10px;
+     }
+    
+     .mySkills p {
+         font-size: 9.75px;
+     }
+    
+     .flexContainer {
+         display: flex; 
+         margin-bottom: -50px;
+     } 
+
+     .design {
+        width: 33%;
+        margin-left: 10px;
+        }
+    
+     .ux {
+        width: 33%;
+        margin-left: 10px;
+    }
+    
+    .personal {
+        width: 33%;
+        margin-left: 0px;
+    }
+
+     .apps img {
+        text-align: center;
+        margin-top: -25px;
+        height: 35px;
+        padding-bottom: 0px;
+    }
+   
+/* Work */
+    
+    .workHead {
+        margin-top: -90px;
+        margin-left: 0px;
+        font-size: 30px;
+      }
+    
+    .workGrid {
+        margin: 5px;
+        display: grid;
+        grid-template-rows: 200px;
+        grid-template-columns: 100%;
+        grid-template-areas:
+        "preview"
+        "description"
+        ;
+    }
+    
+    .workGrid1 {
+        grid-template-areas:
+        "description"
+        "preview"
+        ;
+    }
+    
+    .bbPreview  {
+        text-align: center;
+        grid-area: 'preview';
+        margin-top: -70px;
+    }
+    
+    .bbPreview img {
+        width: 55%;
+    }
+    
+    .bbText {
+        margin-top: 60px;
+        grid-area: 'description';
+    }
+    
+    .bbText h2 {
+        font-size: 18px;
+        padding-left: 15px;
+        padding-bottom: 5px;
+        grid-area: 'description';
+    }
+    
+    .bbText h4 {
+        font-size: 14px;
+        padding-left: 15px;
+        grid-area: 'description';
+    }
+    
+    .bbText p {
+        font-size: 11px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        line-height: 17px;
+        grid-area: 'description';
+    }
+    
+    .bbBtn {
+        margin-left: 15px;
+        margin-bottom: 25px;
+        grid-area: 'description';
+    }
+    
+    .otra {
+        padding-bottom: 160px;
+    }
+
+    .otraPreview img {
+        text-align: center;
+        grid-area: 'preview';
+        width: 55%;
+    }
+    
+    .otraText {
+        margin-top: 330px;
+        margin-left: 80px;
+        grid-area: 'description';
+    }
+    
+    .otraText h2 {
+        font-size: 18px;
+        padding-left: 100px;
+        padding-bottom: 3px;
+        grid-area: 'description';
+    }
+    
+    .otraText h4 {
+        font-size: 14px;
+        padding-left: 100px;
+        margin-bottom: -7px;
+        grid-area: 'description';
+    }
+    
+    .otraText p {
+        font-size: 10.25px;
+        padding-bottom: 20px;
+        padding-left: 100px;
+        line-height: 17px;
+        grid-area: 'description';
+    }
+    
+    .otraBtn {
+        margin-left: -65px;
+        margin-bottom: 20px;
+        grid-area: 'description';
+    }
+    
+    .bbePreview  {
+        text-align: center;
+        grid-area: 'preview';
+        margin-top: -50px;
+    }
+    
+    .bbePreview img {
+        width: 100%;
+    }
+    
+    .bbeText {
+        margin-top: -15px;
+        grid-area: 'description';
+    }
+    
+    .bbeText h2 {
+        font-size: 18px;
+        margin-left: -105px;
+        padding-bottom: 5px;
+        grid-area: 'description';
+    }
+    
+    .bbeText h4 {
+        font-size: 14px;
+        margin-left: -135px;
+        padding-left: 30px;
+        margin-bottom: -8px;
+        grid-area: 'description';
+    }
+    
+    .bbeText p {
+        font-size: 10.25px;
+        margin-left: -135px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        line-height: 17px;
+        grid-area: 'description';
+    }
+    
+    .bbeBtn {
+        margin-left: -105px;
+        margin-bottom: 25px;
+        grid-area: 'description';
+    }
+    
+/* Footer */
+    
+    footer {
+        background-color: #4E313F;
+        height: 350px;
+        background-size: cover;
+        width: 100%;
+        position: static;
+    }
+    
+    .footerLogo {
+        padding-left: 4px;
+        padding-top: 35px;
+    
+    }
+    
+    .footerLogo img {
+        height: 100px;
+    }
+    
+    .connect {
+        padding-top: 10px;
+        margin-left: 0px;
+        padding-left: 25px;
+    }
+
+      .contact img {
+        padding-top: 40px;
+    }
+    
+    .copyright  {
+        padding-left: 10px;
+        padding-top: 35px;
+    }
+}
+
