@@ -1592,39 +1592,40 @@ footer {
 }
 
 .bbText {
-    margin-top: 60px;
+    margin-top: 85px;
     grid-area: 'description';
 }
 
 .bbText h2 {
-    font-size: 20px;
-    padding-left: 75px;
+    font-size: 18px;
+    padding-left: 20px;
     padding-bottom: 5px;
     grid-area: 'description';
 }
 
 .bbText h4 {
-    font-size: 14.5px;
-    padding-left: 75px;
+    font-size: 14px;
+    padding-left: 20px;
     grid-area: 'description';
 }
 
 .bbText p {
-    font-size: 13px;
+    font-size: 11px;
     padding-bottom: 20px;
-    padding-left: 75px;
+    padding-left: 20px;
+    line-height: 17px;
     grid-area: 'description';
 }
 
 .bbBtn {
-    margin-left: 75px;
+    margin-left: 20px;
     margin-bottom: 25px;
     grid-area: 'description';
 }
 
 .otra {
     margin-top: 100px;
-    padding-bottom: 195px;
+    padding-bottom: 170px;
     background-color: rgba(246, 106, 29, 0.1)
 }
 
@@ -1660,9 +1661,10 @@ footer {
 }
 
 .otraText p {
-    font-size: 11px;
+    font-size: 13px;
     padding-bottom: 20px;
     padding-left: 35px;
+    line-height: 17px;
     grid-area: 'description';
 }
 
@@ -1679,38 +1681,39 @@ footer {
 }
 
 .bbePreview img {
-    width: 75%;
+    width: 90%;
 }
 
 .bbeText {
-    margin-top: 25px;
+    margin-top: -15px;
     grid-area: 'description';
 }
 
 .bbeText h2 {
-    font-size: 20px;
-    margin-left: -40px;
+    font-size: 18px;
+    margin-left: -100px;
     padding-bottom: 5px;
     grid-area: 'description';
 }
 
 .bbeText h4 {
-    font-size: 14.5px;
-    margin-left: -69px;
+    font-size: 14px;
+    margin-left: -130px;
     padding-left: 30px;
     grid-area: 'description';
 }
 
 .bbeText p {
     font-size: 13px;
-    margin-left: -69px;
+    margin-left: -130px;
     padding-bottom: 20px;
     padding-left: 30px;
+    line-height: 17px;
     grid-area: 'description';
 }
 
 .bbeBtn {
-    margin-left: -39px;
+    margin-left: -100px;
     margin-bottom: 25px;
     grid-area: 'description';
 }
