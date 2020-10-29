@@ -1631,14 +1631,14 @@ footer {
     }
     
     .otraText h4 {
-        font-size: 16px;
+        font-size: 11px;
         padding-left: 100px;
         margin-bottom: -7px;
         grid-area: 'description';
     }
     
     .otraText p {
-        font-size: 14.25px;
+        font-size: 7.25px;
         padding-bottom: 20px;
         padding-left: 100px;
         line-height: 17px;
@@ -1674,7 +1674,7 @@ footer {
     }
     
     .bbeText h4 {
-        font-size: 16px;
+        font-size: 14px;
         margin-left: -135px;
         padding-left: 30px;
         margin-bottom: -8px;
@@ -1682,11 +1682,11 @@ footer {
     }
     
     .bbeText p {
-        font-size: 18.25px;
+        font-size: 7.25px;
         margin-left: -135px;
         padding-bottom: 20px;
         padding-left: 30px;
-        line-height: 13px;
+        line-height: 17px;
         grid-area: 'description';
     }
     
