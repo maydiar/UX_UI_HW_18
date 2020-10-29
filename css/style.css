@@ -1631,17 +1631,17 @@ footer {
     }
     
     .otraText h4 {
-        font-size: 12px;
+        font-size: 14px;
         padding-left: 100px;
-        margin-bottom: 0px;
+        margin-bottom: -7px;
         grid-area: 'description';
     }
     
     .otraText p {
-        font-size: 6.5px;
+        font-size: 10.25px;
         padding-bottom: 20px;
         padding-left: 100px;
-        line-height: 13px;
+        line-height: 17px;
         grid-area: 'description';
     }
     
@@ -1674,7 +1674,7 @@ footer {
     }
     
     .bbeText h4 {
-        font-size: 12px;
+        font-size: 14px;
         margin-left: -135px;
         padding-left: 30px;
         margin-bottom: -8px;
@@ -1682,11 +1682,11 @@ footer {
     }
     
     .bbeText p {
-        font-size: 6.5px;
+        font-size: 10.25px;
         margin-left: -135px;
         padding-bottom: 20px;
         padding-left: 30px;
-        line-height: 13px;
+        line-height: 17px;
         grid-area: 'description';
     }
     
@@ -1731,3 +1731,4 @@ footer {
         padding-top: 60px;
     }
 }
+
